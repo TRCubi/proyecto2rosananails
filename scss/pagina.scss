@@ -88,7 +88,8 @@ form{
     display: flex;
     flex-flow: column wrap;
     border: 2px solid black;
-    margin: 15%;
+    margin: 10%;
+    padding: 5%;
 }
 .boton{
     width: 100px;
@@ -104,4 +105,10 @@ p{
 .footerTexto {
     text-align: center;
     font-weight: 500;
+}
+.separador{
+    margin: 5%;
+}
+.espacioGaleria{
+    padding: 5%;
 }
