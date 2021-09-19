@@ -11,6 +11,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
    <link rel="stylesheet" href="./css/pagina.css">
 </head>
@@ -82,33 +83,46 @@
    <!--inicio Main -->
    <main class="container">
 
-      <section class="col-12 d-block">
+      <section class="col-12 col-md-12 col-lg-12 d-block">
 
          <div class=" comienzo mx-auto">
 
             <h1>Sobre nosotros</h1> 
 
-            <p>Realizamos servicio de manicuria en la ciudad de Rosario del Tala. A cargo de la profesional Rosana Cubilla, donde encontraras lo mejor para tus uñas a un increible precio.
+            <div data-aos="fade-right">
+
+               <p>Realizamos servicio de manicuria en la ciudad de Rosario del Tala. A cargo de la profesional Rosana Cubilla, donde encontraras lo mejor para tus uñas a un increible precio.
                Cualquier diseño que tengas en mente se puede realizar aqui en Rosana Nails.</p>
+
+            </div>
 
          </div>
 
       </section>
 
-      <article>
+      <article class="col-12 col-md-12 col-lg-12">
 
             <div class="conocimiento mx-auto">
 
             <h2>Diplomas y Certificados</h2>
 
+            <div data-aos="fade-left">
+
                <p>La profesional cuenta con certificacion en la realizacion de kapping gel, semipermanente de uñas, semipermanente de pies, entre otros.Si buscas mas informacion podes ver la pagina de <a href="paginas/servicios.html">Servicio</a> donde explicaremos con mas detalle que se realiza en el gabinete. </p>
             </div>
+
+            </div>   
+
 
             <div class="ubicacion mx-auto">
 
                <h3>Ubicacion del gabinete</h3>
 
+               <div data-aos="fade-right">
+
                   <p>Nos encontramos en  la ciudad de Rosario del Tala, Entre Rios,en la calle Avenida Libertad 269 entre Almirante Brown y Nuestra señora del Rosario. Te dejamos nuestra ubicacion por google maps para que puedas ubicarte.</p>
+
+               </div>
 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.5288653648445!2d-59.140606485129624!3d-32.29764254665831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b109975f505e4d%3A0xfbb78d6fbf7d0ecc!2sAv.%20Libertad%20269%2C%20Rosario%20del%20Tala%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1631983659168!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="col-12"></iframe>
 
@@ -159,5 +173,11 @@
    <!--fin footer ---------------------------------------------------------------->
 
    <script src="./js/bootstrap.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+
+
 </body>
 </html>

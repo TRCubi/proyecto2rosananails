@@ -5,6 +5,13 @@
     width: 100%;
 
 }
+main {
+    p {
+        border-radius: 12px;
+        border: solid #FFA2FF 2px;
+        padding: 5px;
+    }
+}
 .comienzo{
     display: block;
     padding: 2%;
@@ -30,13 +37,16 @@ h1{
     font-size: 2.6rem;
     text-align: center;
 }
-.tarjetaTitulo{
-    font-size: 2rem;
+.promocion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
+.tarjetaTitulo{
+    font-size: 1.7rem;
+}
 .tarjeta{
     display: flex;
-    align-items: center;
     justify-content:space-evenly;
 }
 h2{
