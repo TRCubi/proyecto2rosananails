@@ -52,7 +52,10 @@ h1{
 }
 .textoDeLasTarjetas{
     height: 500px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+        @media (max-width:1000px) {
+        font-size: 1.2rem;
+    }
 }
 .separarTarjetas{
     margin: 10px 0px;
