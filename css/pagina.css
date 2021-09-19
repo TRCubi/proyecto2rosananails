@@ -67,14 +67,8 @@ h1 {
 }
 
 .textoDeLasTarjetas {
-  height: 500px;
-  font-size: 1.6rem;
-}
-
-@media (max-width: 780px) {
-  .textoDeLasTarjetas {
-    font-size: 1.2rem;
-  }
+  height: 570px;
+  font-size: 1.2rem;
 }
 
 .separarTarjetas {
