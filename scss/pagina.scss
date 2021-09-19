@@ -51,13 +51,13 @@ h1{
 }
 h2{
     color: #ffa2ff;
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
     word-spacing: 20px;
 }
 h3{
     color: #ffa2ff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     word-spacing: 20px;
 }
@@ -87,11 +87,10 @@ h3{
     flex-direction:column;
     width: 200px;
 }
-div i{
-    font-size: 2rem;
-}
-a{
-    text-decoration: none;
+div{
+    i{
+        font-size: 2rem;;
+    }
 }
 form{
     background-color: white;
@@ -109,7 +108,7 @@ p{
     font-size: 1.4rem;
     font-family: 'Crimson Text', serif;
     line-height: 30px;
-    border-radius: 20px;
+    text-align: center;
 }
 
 .footerTexto {
