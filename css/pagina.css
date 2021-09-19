@@ -66,6 +66,14 @@ h1 {
           align-items: center;
 }
 
+.card-text {
+  height: 540px;
+}
+
+.separarTarjetas {
+  margin: 10px 0px;
+}
+
 h2 {
   color: #ffa2ff;
   font-size: 1.9rem;
